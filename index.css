@@ -1,0 +1,108 @@
+body{
+    background: linear-gradient(#b5e2fa, #fdfcdc);
+    font-family: "Albert Sans", sans-serif;
+
+
+}
+
+.oc-beach{
+    background-image: url("images/oc-beach.jpeg");
+    width: auto;
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 20px;
+    border: 2px solid #ffffff;
+    position: relative;
+}
+
+.hero{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    text-shadow: 0 0 1px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#hero-heading{
+    background: none;;
+    width: 200px;
+    /* border: 3px solid black;
+    border-radius: 10px; */
+    margin-bottom: -40px;
+    padding: 4px 6px;
+}
+
+#hero-description{
+    background: none;
+    width: 320px;
+    font-size: 14px;
+    /* border: 2px solid black;
+    border-radius: 6px; */
+    margin-trim: -200px;
+    margin-top: 0;
+    padding: 2px 6px;
+}
+
+#illenium, #surf, #omomo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+}
+
+#top3{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 0 0 2px #ffffff;
+    
+}
+
+#activity-text{
+    width: 200px;
+}
+
+.top-3-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+#alan-guide{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.your-guide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    border-bottom: 3px solid #1982c4;
+    background: #cbf3f0;
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+}
+    
